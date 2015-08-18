@@ -1,8 +1,115 @@
-header h1{
-background-image: url('elizabeth.jpg');
+header {
+background-image: url('elizabeth2.jpg');
 padding: 10px 10px;
-padding-bottom: 600px;
+padding-bottom: 400px;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
-li { font-size: 3em; }
+header h1{
+	color: white;
+
+	font-size: 50px;
+	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 0;
+
+
+}
+
+body {
+    background-color: blue;
+}
+
+
+
+
+/*=================================
+NAV!!!*/
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black;
+  height: 40px;
+  text-align: center;
+  margin:;
+  padding-top: 15px;
+
+  background: blue;
+}
+nav ul {
+  list-style: none;
+  display: inline;
+  width: 20%
+}
+nav ul li {
+ display: inline-block;
+ padding-left: 40px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Arial;
+  letter-spacing: 1px;
+}
+
+
+
+
+/*====================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================FOOTER!!!*/
+footer {
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 0;
+	bottom:0;
+	left:0;
+	background: black;
+}
+footer ul li {
+	list-style: none;
+	display: inline-block;
+ padding-left: 40px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
