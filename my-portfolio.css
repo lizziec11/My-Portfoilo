@@ -3,8 +3,9 @@ background-image: url('elizabeth2.jpg');
 padding: 10px 10px;
 padding-bottom: 400px;
 background-repeat: no-repeat;
-background-size: cover;
-
+background-size: contain;
+    width: 80%;
+    margin: 0 auto;
 }
 
 header h1{
@@ -20,6 +21,10 @@ header h1{
 
 body {
     background-color: blue;
+}
+
+body.whitebg {
+  background-color: white;
 }
 
 
